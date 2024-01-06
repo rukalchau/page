@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 70%; /* 30% width for photos, 70% for text */
+    gap: 20px; /* Space between grid items */
+}
+
+.grid-photo img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.grid-text {
+    padding: 10px; /* Padding for text */
+    text-align: left; /* Align text to the left */
+}
+
+header {
+    text-align: center;
+    background-color: #f8fafc;
+    color: #080808;
+    padding: 20px;
+  }
